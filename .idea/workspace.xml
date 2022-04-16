@@ -20,17 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8eb5ea8e-04a3-4ed0-8b8e-22499a93174a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/src/components/CardItem.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/components/Main.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/components/HelloWorld.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/components/CardItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/components/CardItem.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/components/Main.vue" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/components/Main.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EditorConfigPreviewManager">
+    <editorConfig file="$PROJECT_DIR$/project/.editorconfig" previewFile="$PROJECT_DIR$/project/src/components/Main.vue" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,7 +52,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
@@ -72,7 +72,9 @@
       <workItem from="1650101679272" duration="316000" />
       <workItem from="1650102010351" duration="367000" />
       <workItem from="1650102389271" duration="425000" />
-      <workItem from="1650103482222" duration="2165000" />
+      <workItem from="1650103482222" duration="2401000" />
+      <workItem from="1650115067594" duration="15000" />
+      <workItem from="1650115322886" duration="2260000" />
     </task>
     <servers />
   </component>
@@ -92,9 +94,13 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="461" y="165" width="1312" height="710" key="SettingsEditor" timestamp="1650103597704">
+    <state x="701" y="155" key="#EditorConfig" timestamp="1650117124322">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" width="1312" height="710" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1650103597704" />
+    <state x="701" y="155" key="#EditorConfig/0.0.1920.1040@0.0.1920.1040" timestamp="1650117124322" />
+    <state x="461" y="157" width="1312" height="883" key="SettingsEditor" timestamp="1650117287618">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="157" width="1312" height="883" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1650117287618" />
   </component>
 </project>
