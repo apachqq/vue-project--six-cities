@@ -1,0 +1,33 @@
+<template>
+  <div class="place-card__info">
+    <div class="place-card__price-wrapper">
+      <div class="place-card__price">
+        <b class="place-card__price-value">&euro;180</b>
+        <span class="place-card__price-text">&#47;&nbsp;night</span>
+      </div>
+      <button class="place-card__bookmark-button button" type="button">
+        <svg class="place-card__bookmark-icon" width="18" height="19">
+          <use xlink:href="#icon-bookmark"></use>
+        </svg>
+        <span class="visually-hidden">To bookmarks</span>
+      </button>
+    </div>
+    <div class="place-card__rating rating">
+      <div class="place-card__stars rating__stars">
+        <span style="width: 100%"></span>
+        <span class="visually-hidden">Rating</span>
+      </div>
+    </div>
+    <h2 class="place-card__name">
+      <a href="#">Nice, cozy, warm big bed apartment</a>
+    </h2>
+    <p class="place-card__type">Apartment</p>
+  </div>
+</template>
+
+<script>
+</script>
+
+<style scoped>
+
+</style>

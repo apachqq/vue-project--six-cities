@@ -1,62 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8eb5ea8e-04a3-4ed0-8b8e-22499a93174a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/public/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/css/main.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/fonts/rubik-bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/fonts/rubik-bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/fonts/rubik-bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/fonts/rubik-light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/fonts/rubik-light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/fonts/rubik-light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/fonts/rubik-medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/fonts/rubik-medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/fonts/rubik-medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/fonts/rubik-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/fonts/rubik-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/fonts/rubik-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/amsterdam.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/amsterdam@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/apartment-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/apartment-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/apartment-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/apartment-small-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/apartment-small-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/avatar-angelina.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/avatar-max.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/avatar.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/ico-adults.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/ico-bedrooms.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/ico-no-results.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/ico-place.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/ico-saved.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/icon-arrow-select.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/icon-bookmark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/icon-star.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/map-big.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/map-big@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/map.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/map@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/no-places.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/no-places@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/page-not-found.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/pin-active.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/pin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/room-small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/room.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/sprite.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/star-active.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/star-white.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/stars-active.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/stars.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/studio-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/studio-photos.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/triangle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/components/CardItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/components/Main.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/components/HelloWorld.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,15 +42,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8eb5ea8e-04a3-4ed0-8b8e-22499a93174a" name="Default Changelist" comment="" />
@@ -91,11 +68,33 @@
       <updated>1649928341722</updated>
       <workItem from="1649928342792" duration="748000" />
       <workItem from="1650011731481" duration="1213000" />
-      <workItem from="1650013138672" duration="1320000" />
+      <workItem from="1650013138672" duration="2154000" />
+      <workItem from="1650101679272" duration="316000" />
+      <workItem from="1650102010351" duration="367000" />
+      <workItem from="1650102389271" duration="425000" />
+      <workItem from="1650103482222" duration="2165000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="461" y="165" width="1312" height="710" key="SettingsEditor" timestamp="1650103597704">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" width="1312" height="710" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1650103597704" />
   </component>
 </project>
