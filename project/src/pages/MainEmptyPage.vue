@@ -1,0 +1,89 @@
+<template>
+  <div class="page page--gray page--main">
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <div class="header__left">
+            <a class="header__logo-link header__logo-link--active">
+              <img class="header__logo" src="img/logo.svg" alt="6 cities logo" width="81" height="41">
+            </a>
+          </div>
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li class="header__nav-item user">
+                <a class="header__nav-link header__nav-link--profile" href="#">
+                  <div class="header__avatar-wrapper user__avatar-wrapper">
+                  </div>
+                  <span class="header__user-name user__name">Oliver.conner@gmail.com</span>
+                </a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#">
+                  <span class="header__signout">Sign out</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="page__main page__main--index page__main--index-empty">
+      <h1 class="visually-hidden">Cities</h1>
+      <div class="tabs">
+        <section class="locations container">
+          <ul class="locations__list tabs__list">
+            <li class="locations__item">
+              <a class="locations__item-link tabs__item" href="#">
+                <span>Paris</span>
+              </a>
+            </li>
+            <li class="locations__item">
+              <a class="locations__item-link tabs__item" href="#">
+                <span>Cologne</span>
+              </a>
+            </li>
+            <li class="locations__item">
+              <a class="locations__item-link tabs__item" href="#">
+                <span>Brussels</span>
+              </a>
+            </li>
+            <li class="locations__item">
+              <a class="locations__item-link tabs__item">
+                <span>Amsterdam</span>
+              </a>
+            </li>
+            <li class="locations__item">
+              <a class="locations__item-link tabs__item" href="#">
+                <span>Hamburg</span>
+              </a>
+            </li>
+            <li class="locations__item">
+              <a class="locations__item-link tabs__item tabs__item--active" href="#">
+                <span>Dusseldorf</span>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="cities">
+        <div class="cities__places-container cities__places-container--empty container">
+          <section class="cities__no-places">
+            <div class="cities__status-wrapper tabs__content">
+              <b class="cities__status">No places to stay available</b>
+              <p class="cities__status-description">We could not find any property available at the moment in
+                Dusseldorf</p>
+            </div>
+          </section>
+          <div class="cities__right-section"></div>
+        </div>
+      </div>
+    </main>
+  </div>
+</template>
+
+<script>
+</script>
+
+<style scoped>
+</style>

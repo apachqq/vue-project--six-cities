@@ -20,11 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8eb5ea8e-04a3-4ed0-8b8e-22499a93174a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/project/src/pages/LoginPage.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/favorites-empty.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/favorites.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/components/UI/CardItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/components/UI/CardItem.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/pages/MainPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/pages/MainPage.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +81,7 @@
       <workItem from="1650115067594" duration="15000" />
       <workItem from="1650115322886" duration="5620000" />
       <workItem from="1650132470080" duration="52000" />
-      <workItem from="1650216042067" duration="5257000" />
+      <workItem from="1650216042067" duration="5797000" />
     </task>
     <servers />
   </component>
@@ -112,10 +109,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="661" y="299" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1650217388887" />
-    <state x="461" y="157" width="1312" height="883" key="SettingsEditor" timestamp="1650119594751">
+    <state x="608" y="91" width="1312" height="883" key="SettingsEditor" timestamp="1650221887701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="157" width="1312" height="883" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1650119594751" />
+    <state x="608" y="91" width="1312" height="883" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1650221887701" />
     <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1650217262678">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
