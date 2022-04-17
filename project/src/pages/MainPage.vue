@@ -82,7 +82,7 @@
 </template>
 
 <script>
-import CardItem from '@/components/CardItem'
+import CardItem from '@/components/UI/CardItem'
 
 export default {
   components: { CardItem }
