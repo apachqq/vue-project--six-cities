@@ -1,83 +1,145 @@
 <template>
-  <div>
-    <div>
-      <main class="page__main page__main--index">
-        <h1 class="visually-hidden">Cities</h1>
-        <div class="tabs">
-          <section class="locations container">
-            <ul class="locations__list tabs__list">
-              <li class="locations__item">
-                <a class="locations__item-link tabs__item" href="#">
-                  <span>Paris</span>
+  <div class="page page--gray page--main">
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <div class="header__left">
+            <a class="header__logo-link header__logo-link--active">
+              <img class="header__logo" src="img/logo.svg" alt="6 cities logo" width="81" height="41">
+            </a>
+          </div>
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li class="header__nav-item user">
+                <a class="header__nav-link header__nav-link--profile" href="#">
+                  <div class="header__avatar-wrapper user__avatar-wrapper">
+                  </div>
+                  <span class="header__user-name user__name">Oliver.conner@gmail.com</span>
                 </a>
               </li>
-              <li class="locations__item">
-                <a class="locations__item-link tabs__item" href="#">
-                  <span>Cologne</span>
-                </a>
-              </li>
-              <li class="locations__item">
-                <a class="locations__item-link tabs__item" href="#">
-                  <span>Brussels</span>
-                </a>
-              </li>
-              <li class="locations__item">
-                <a class="locations__item-link tabs__item tabs__item--active">
-                  <span>Amsterdam</span>
-                </a>
-              </li>
-              <li class="locations__item">
-                <a class="locations__item-link tabs__item" href="#">
-                  <span>Hamburg</span>
-                </a>
-              </li>
-              <li class="locations__item">
-                <a class="locations__item-link tabs__item" href="#">
-                  <span>Dusseldorf</span>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#">
+                  <span class="header__signout">Sign out</span>
                 </a>
               </li>
             </ul>
-          </section>
+          </nav>
         </div>
-        <div class="cities">
-          <div class="cities__places-container container">
-            <section class="cities__places places">
-              <h2 class="visually-hidden">Places</h2>
-              <b class="places__found">312 places to stay in Amsterdam</b>
-              <form class="places__sorting" action="#" method="get">
-                <span class="places__sorting-caption">Sort by</span>
-                <span class="places__sorting-type" tabindex="0">
+      </div>
+    </header>
+
+    <main class="page__main page__main--index">
+      <h1 class="visually-hidden">Cities</h1>
+      <div class="tabs">
+        <section class="locations container">
+          <ul class="locations__list tabs__list">
+            <li class="locations__item">
+              <a class="locations__item-link tabs__item" href="#">
+                <span>Paris</span>
+              </a>
+            </li>
+            <li class="locations__item">
+              <a class="locations__item-link tabs__item" href="#">
+                <span>Cologne</span>
+              </a>
+            </li>
+            <li class="locations__item">
+              <a class="locations__item-link tabs__item" href="#">
+                <span>Brussels</span>
+              </a>
+            </li>
+            <li class="locations__item">
+              <a class="locations__item-link tabs__item tabs__item--active">
+                <span>Amsterdam</span>
+              </a>
+            </li>
+            <li class="locations__item">
+              <a class="locations__item-link tabs__item" href="#">
+                <span>Hamburg</span>
+              </a>
+            </li>
+            <li class="locations__item">
+              <a class="locations__item-link tabs__item" href="#">
+                <span>Dusseldorf</span>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="cities">
+        <div class="cities__places-container container">
+          <section class="cities__places places">
+            <h2 class="visually-hidden">Places</h2>
+            <b class="places__found">312 places to stay in Amsterdam</b>
+            <form class="places__sorting" action="#" method="get">
+              <span class="places__sorting-caption">Sort by</span>
+              <span class="places__sorting-type" tabindex="0">
                   Popular
                   <svg class="places__sorting-arrow" width="7" height="4">
                     <use xlink:href="#icon-arrow-select"></use>
                   </svg>
                 </span>
-                <ul class="places__options places__options--custom places__options--opened">
-                  <li class="places__option places__option--active" tabindex="0">Popular</li>
-                  <li class="places__option" tabindex="0">Price: low to high</li>
-                  <li class="places__option" tabindex="0">Price: high to low</li>
-                  <li class="places__option" tabindex="0">Top rated first</li>
-                </ul>
-              </form>
-              <div class="cities__places-list places__list tabs__content">
-                <card-item></card-item>
+              <ul class="places__options places__options--custom places__options--opened">
+                <li class="places__option places__option--active" tabindex="0">Popular</li>
+                <li class="places__option" tabindex="0">Price: low to high</li>
+                <li class="places__option" tabindex="0">Price: high to low</li>
+                <li class="places__option" tabindex="0">Top rated first</li>
+              </ul>
+            </form>
+            <div class="cities__places-list places__list tabs__content">
 
-                <card-item></card-item>
+              <card-item
+                title="Beautiful &amp; luxurious apartment at great location"
+                type="Apartment"
+                price="120"
+                picture="img/apartment-01.jpg"
+                :premium="true"
+                raiting="4"
+              ></card-item>
 
-                <card-item></card-item>
+              <card-item
+                title="Wood and stone place"
+                type="Private room"
+                price="132"
+                picture="img/room.jpg"
+                :premium="false"
+                raiting="4"
+              ></card-item>
 
-                <card-item></card-item>
+              <card-item
+                title="Canal View Prinsengracht"
+                type="Apartment"
+                price="132"
+                picture="img/apartment-02.jpg"
+                :premium="false"
+                raiting="4"
+              ></card-item>
 
-                <card-item></card-item>
-              </div>
-            </section>
-            <div class="cities__right-section">
-              <section class="cities__map map"></section>
+              <card-item
+                title="Nice, cozy, warm big bed apartment"
+                type="Apartment"
+                price="180"
+                picture="img/apartment-03.jpg"
+                :premium="true"
+                raiting="5"
+              ></card-item>
+
+              <card-item
+                title="Wood and stone place"
+                type="Private room"
+                price="80"
+                picture="img/room.jpg"
+                :premium="false"
+                raiting="4"
+              ></card-item>
             </div>
+          </section>
+          <div class="cities__right-section">
+            <section class="cities__map map"></section>
           </div>
         </div>
-      </main>
-    </div>
+      </div>
+    </main>
   </div>
 </template>
 
@@ -90,5 +152,4 @@ export default {
 </script>
 
 <style scoped>
-
 </style>

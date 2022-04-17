@@ -1,42 +1,63 @@
 <template>
   <article class="cities__place-card place-card">
-    <div class="place-card__mark">
+    <div class="place-card__mark" v-if="premium">
       <span>Premium</span>
     </div>
     <div class="cities__image-wrapper place-card__image-wrapper">
       <a href="#">
-        <img class="place-card__image" src="img/apartment-01.jpg" width="260" height="200"
+        <img class="place-card__image" :src="picture" width="260" height="200"
              alt="Place image">
       </a>
     </div>
     <div class="place-card__info">
       <div class="place-card__price-wrapper">
         <div class="place-card__price">
-          <b class="place-card__price-value">&euro;120</b>
+          <b class="place-card__price-value">&euro;{{ price }}</b>
           <span class="place-card__price-text">&#47;&nbsp;night</span>
         </div>
-        <button class="place-card__bookmark-button button" type="button">
-          <svg class="place-card__bookmark-icon" width="18" height="19">
-            <use xlink:href="#icon-bookmark"></use>
-          </svg>
-          <span class="visually-hidden">To bookmarks</span>
-        </button>
       </div>
       <div class="place-card__rating rating">
         <div class="place-card__stars rating__stars">
-          <span style="width: 80%"></span>
+          <span :style="stars"></span>
           <span class="visually-hidden">Rating</span>
         </div>
       </div>
       <h2 class="place-card__name">
-        <a href="#">Beautiful &amp; luxurious apartment at great location</a>
+        <a href="#">{{ title }}</a>
       </h2>
-      <p class="place-card__type">Apartment</p>
+      <p class="place-card__type">{{ type }}</p>
     </div>
   </article>
 </template>
 
 <script>
+export default {
+  data () {
+    return {
+      stars: 'width: ' + this.raiting * 20 + '%'
+    }
+  },
+  props: {
+    title: {
+      type: String
+    },
+    type: {
+      type: String
+    },
+    price: {
+      type: Number
+    },
+    picture: {
+      type: String
+    },
+    premium: {
+      type: Boolean
+    },
+    raiting: {
+      type: Number
+    }
+  }
+}
 </script>
 
 <style scoped>
