@@ -17,7 +17,7 @@
 
   .text {
     font-size: 3rem;
-    padding-top: 9rem;
+    padding-top: 5rem;
   }
 
   .number {
