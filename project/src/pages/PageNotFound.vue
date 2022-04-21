@@ -1,32 +1,22 @@
 <template>
-  <span class="text">The page you are looking for can't be found.</span>
-  <br>
-  <span class="number">404</span>
-  <router-link class="link" to="/">Main</router-link>
+  <img class="picture_404" src="img/page_not_found.png">
+  <router-link class="link" to="/">Go to main page</router-link>
 </template>
 
 <script>
 </script>
 
 <style scoped>
-  * {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .text {
-    font-size: 3rem;
-    padding-top: 9rem;
-  }
-
-  .number {
-    font-size: 5rem;
-    padding-top: 8rem;
+  .picture_404 {
+    display: block;
+    margin: 0 auto;
   }
 
   .link {
+    display: flex;
+    justify-content: center;
     font-size: 2rem;
-    padding-top: 8rem;
+    text-decoration: underline #4481c3;
+    color: #4481c3;
   }
 </style>

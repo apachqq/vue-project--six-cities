@@ -14,7 +14,7 @@
                 <a class="header__nav-link header__nav-link--profile" href="#">
                   <div class="header__avatar-wrapper user__avatar-wrapper">
                   </div>
-                  <span class="header__user-name user__name">Oliver.conner@gmail.com</span>
+                  <span class="header__user-name user__name"></span>
                 </a>
               </li>
               <li class="header__nav-item">

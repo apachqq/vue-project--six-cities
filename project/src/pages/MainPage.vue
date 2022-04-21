@@ -4,7 +4,7 @@
       <div class="container">
         <div class="header__wrapper">
           <div class="header__left">
-            <a class="header__logo-link header__logo-link--active">
+            <a class="header__logo-link header__logo-link--active" @click.prevent="this.$router.push('/')">
               <img class="header__logo" src="img/logo.svg" alt="6 cities logo" width="81" height="41">
             </a>
           </div>
@@ -14,11 +14,11 @@
                 <a class="header__nav-link header__nav-link--profile" href="#">
                   <div class="header__avatar-wrapper user__avatar-wrapper">
                   </div>
-                  <span class="header__user-name user__name">Oliver.conner@gmail.com</span>
+                  <span class="header__user-name user__name"></span>
                 </a>
               </li>
               <li class="header__nav-item">
-                <a class="header__nav-link" href="#">
+                <a class="header__nav-link" href="#" @click.prevent="logout">
                   <span class="header__signout">Sign out</span>
                 </a>
               </li>
@@ -132,6 +132,7 @@
                 :premium="false"
                 raiting="4"
               ></card-item>
+
             </div>
           </section>
           <div class="cities__right-section">
@@ -147,6 +148,7 @@
 import CardItem from '@/components/UI/CardItem'
 
 export default {
+  inject: ['logout'],
   components: { CardItem }
 }
 </script>
